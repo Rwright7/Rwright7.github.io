@@ -36,7 +36,7 @@ If `gcc` is not installed, the system will prompt you to install the Command Lin
 
  - Click 'Yes' and follow the on screen instructions to finish installing. 
 
- ### 4. Write and Compile a C Program:
+### 4. Write and Compile a C Program:
 
  - Use any text editor to write a C program (e.g., hello.c).
  - Open Terminal and navigate to the file's directory.
