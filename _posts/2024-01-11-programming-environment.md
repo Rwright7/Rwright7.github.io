@@ -4,9 +4,7 @@ title: Programming Environment
 date: 2024-01-11 17:39 -0500
 ---
 
-# Programming Environment Setup
-
-## C Programming on macOS
+# C Programming Environment Setup on macOS
 
 ### 1. Open Terminal:
 
