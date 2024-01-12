@@ -49,5 +49,5 @@ If `gcc` is not installed, the system will prompt you to install the Command Lin
   - Execute the compiled program:
 
 ```bash
-  ./hello
+   ./hello
   ```
