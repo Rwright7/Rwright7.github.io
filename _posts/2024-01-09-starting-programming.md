@@ -16,11 +16,14 @@ Before you start writing code, it's essential to set up your programming environ
 
 There are numerous programming languages to choose from, each with its strengths and use cases. Some popular languages include:
 
-- Python
-- JavaScript
-- Java
-- C++
-- Ruby
+- Front-end web development (user interface and interaction): Javascript, HTML & CSS
+- Back-end web development (services that front-end web apps and mobile apps call out to): Ruby, Python, Javascript, or PHP
+- Mobile development: Swift (iOS) or Java (Android)
+- Windows development: C#
+- MacOS development: Swift or Objective-C
+- Operating systems, file systems, embedded systems, etc.: C/C++
+- Game development: (C++, Unity, and C#)
+- Data Science: R
 
 Select a language based on your goals and the type of applications you want to build.
 
@@ -31,3 +34,22 @@ Let's dive right in and write a simple "Hello, World!" program. Open your prefer
 ```python
 print("Hello, World!")
 ```
+
+```c
+#include <stdio.h>
+
+int main() {
+	printf("Hello, World!\n");
+	return 0;
+}
+
+```
+
+```c++
+#include <iostream>
+
+int main() {
+	std::cout << "Hello, World!" << std::endl;
+	return 0;
+}
+
