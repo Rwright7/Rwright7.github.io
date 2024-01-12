@@ -19,7 +19,7 @@ date: 2024-01-11 17:39 -0500
    gcc --version
    ```
 
-![image-description](photoweb.jpeg)
+![image-description]({{site.baseurl}}/photoweb.jpeg)
 _Example above for checking compiler version_
 
 If `gcc` is not installed, the system will prompt you to install the Command Line Tools.
