@@ -42,7 +42,6 @@ int main() {
 	printf("Hello, World!\n");
 	return 0;
 }
-
 ```
 
 ```c++
@@ -52,4 +51,4 @@ int main() {
 	std::cout << "Hello, World!" << std::endl;
 	return 0;
 }
-
+```
