@@ -9,14 +9,14 @@ date: 2024-03-30 13:39 -0400
   - Brainfuck is simply a language that uses only eight simple commands to perform operations. Despite its odd name and appearance, it's a fully-functional programming language. The commands consist of symbols like '>' , '<' , '+' , '-',  '[', ']' , '.' and ',' which manipulate memory cells and data pointers.
 
 ### Example of what each operator does
-  - >: Move the memory pointer to the right.
-  - <: Move the memory pointer to the left.
-  - +: Increment the value at the memory cell pointed to.
-  - -: Decrement the value at the memory cell pointed to.
-  - [: Start of a loop (executes code inside the loop while the current cell is not zero).
-  - ]: End of a loop (jumps back to the corresponding [ if the current cell is not zero).
-  - ,: Read one character of input into the current cell.
-  - .: Output the character at the current cell.
+  - '>' : Move the memory pointer to the right.
+  - '<' : Move the memory pointer to the left.
+  - '+' : Increment the value at the memory cell pointed to.
+  - '-' : Decrement the value at the memory cell pointed to.
+  - '[' : Start of a loop (executes code inside the loop while the current cell is not zero).
+  - ']' : End of a loop (jumps back to the corresponding [ if the current cell is not zero).
+  - ',' : Read one character of input into the current cell.
+  - '.' : Output the character at the current cell.
 
 ### Brain-Fuck code showing two different approach for handling loops in an Brainfuck Interpreter
   Now the conventional way and conventional meaning the way i have seen a few persons do it. Few because i can't possibly view every brainfuck interpreter project on Github. But the way that i have seen is a **Loop Table** created using a stack. for example the code below:
@@ -86,5 +86,19 @@ case LOOP_END:
 			break;
 ```
 
-### Issues with my initial code (LOOP_START and LOOP_END)
-  They're things to note 
+### Issues with my initial LOOP_START
+  They're things to note in my initial _LOOP_START_ for example:
+
+  - The Linear scanning through the tokens to find the corresponding _LOOP_END_.
+  - Manual tracking _depth_ and updating the _stack_pointer_.
+  - As the nested loops increase then by default the checking loop depths also increases.
+
+### Addressing issues in their own right
+
+ - Linear scanning we can think of that just like how we would for a linear search. We all know linear search as one of the most basic searching algorithms, where it involves a step by step checking of each elements in the array. The _loop_start_ linearly checks until the _loop_end_ is found. By using what we fundamentally know about **linear search** and what a **nested loop** one can see how it was not the best option. 
+
+ - Scanning process is move through each token one by one until the matching **LOOP_END** is found.
+ - Increasing a depth counter when another **LOOP_START** is found and decreasing it when a **LOOP_END** is found.
+
+### Manual Tracking
+ - 
