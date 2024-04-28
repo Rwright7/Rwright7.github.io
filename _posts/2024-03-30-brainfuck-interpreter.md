@@ -95,7 +95,7 @@ case LOOP_END:
 
 ### Addressing issues in their own right
 
- - Linear scanning we can think of that just like how we would for a linear search. We all know linear search as one of the most basic searching algorithms, where it involves a step by step checking of each elements in the array. The _loop_start_ linearly checks until the _loop_end_ is found. By using what we fundamentally know about **linear search** and what a **nested loop** one can see how it was not the best option. 
+ - Linear scanning we can think of that just like how we would for a linear search. We all know linear search as one of the most basic searching algorithms, where it involves a step by step checking of each elements in the array. The  _loop_start_  linearly checks until the  _loop_end_  is found. By using what we fundamentally know about **linear search** and what a **nested loop** is one can see how it was not the best option. 
 
  - Scanning process is move through each token one by one until the matching **LOOP_END** is found.
  - Increasing a depth counter when another **LOOP_START** is found and decreasing it when a **LOOP_END** is found.
