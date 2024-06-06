@@ -21,7 +21,6 @@ date: 2024-03-30 13:39 -0400
 ### Brain-Fuck code showing two different approach for handling loops in an Brainfuck Interpreter
   Now the conventional way and conventional meaning the way i have seen a few persons do it. Few because i can't possibly view every brainfuck interpreter project on Github. But the way that i have seen is a **Loop Table** created using a stack. for example the code below:
 
-  #### Correct code
   ```c
   void precomputeBrackets(const BrainfuckComm tokens[], int numTokens, int bracketMap[]) {
 	int stack[MAX_CODE_LENGTH];
@@ -46,7 +45,7 @@ date: 2024-03-30 13:39 -0400
 	}
 }
 ```
-  ### Previous Not Working As It Should Below!
+  ## Previous Code Before Corrected!
   ```c
   case LOOP_START:
 	  if (*ptr == 0) {
@@ -108,4 +107,4 @@ case LOOP_END:
  - Nested loops and Manual Tracking goes hand in hand. Nevertheless i've chosen to separate them and just continue onwards about the potiential dangers of nested loops especially in regards to my brainfuck code.
 
  - Each level of nesting adds another layer of logic that one needs to understand and manage.
- - Off-by-one errors, incorrect stack management, and other logical errors are more likely to occur and 	harder to spot.
+ - Off-by-one errors, incorrect stack management, and other logical errors are more likely to occur and harder to spot.
