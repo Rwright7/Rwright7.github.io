@@ -14,7 +14,7 @@ The cameras are usually mounted on poles or existing infrastructure, such as tra
 
 The PDF below entails some math i did on the objective to find out "How quickly a vehicle traveling above the speed limit would move out of the camera’s range."
 
-[Speed Camera PDF](assets/files/Speed_Camera.pdf)
+[Speed Camera PDF](assets/Speed_Camera.pdf)
 
 But there's some caveats to the overall objective. 
 
