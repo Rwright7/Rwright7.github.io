@@ -69,12 +69,35 @@ It is my belief that upon learning programming, one is taught or one should be t
 
 Just by knowing the above you're very much on your journey. By looking at the Screenshot of the console where the program above was executed, we see a list of errors. lets attack them one by one.
 
-first one is:
+First error reads:
 > test.cpp:2:7: error: using declaration requires a qualified name
 using namespeace std;
 
 how do you read it well. for starters, we know that _**test.cpp**_ is our file name. we know that _**2:7**_ is read as _**line two (2): column seven(7)**_, then we have _**error**_ plastered in _red_.
 
-It reads 
+It reads _"using declaration requires a qualified name"_
+then it points a green arrow right under _"namespeace"_ where it is spelt incorrectly. Now if that error was not clear enough, i dont know what is or could be. 
+
+1) Once you knew what _"Declaration"_ meant it should hit write away.
+
+What does _Declaration_ means ?
+
+2) **The process of defining a variable, function, or other identifiers in a program, specifying its type and possibly initializing it.**
+
+Now in my head what i would say to myself is the only variable, i have defined is an **_integer named val_**. so there's no way **_using namespeace std;_** could be see as a variable and instantly, i would just double check and realise the miss spelling, which happens. 
+
+Second error reads:
+error: use of undeclared identifer 'cout'; did you mean 'std:: cout'?
+
+Well what is a _"identifier"_?
+
+3) **The name you give to a variable, function, or other parts of your code so you can refer to them easily. It's like a label that helps you uniquely recognize and use those parts in your program.**
+
+Instantly it clicks _"cout"_ is suppose to output the message to the user, not as an identifier nor variable. So let me try the suggesting in green and see what happens. 
+
+# Sumamry
+
+1) T
+
 
 
