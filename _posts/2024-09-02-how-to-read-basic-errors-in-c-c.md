@@ -78,7 +78,7 @@ how do you read it well. for starters, we know that _**test.cpp**_ is our file n
 It reads _"using declaration requires a qualified name"_
 then it points a green arrow right under _"namespeace"_ where it is spelt incorrectly. Now if that error was not clear enough, i dont know what is or could be. 
 
-1) Once you knew what _"Declaration"_ meant it should hit write away.
+1) Once you knew what _"Declaration"_ meant it should hit right away.
 
 What does _Declaration_ means ?
 
@@ -97,7 +97,20 @@ Instantly it clicks _"cout"_ is suppose to output the message to the user, not a
 
 # Sumamry
 
-1) T
+1) Read, Read, Read, Read; Never Stop!
+
+2) Be Interested To Learn More!
+
+3) Be Patient With Yourself And Try To Understand The Errors
+
+4) Ask Yourself Why, Why, Why
+
+5) Never Forget The Basics
+
+
+_Post shall be revisted, till everything flows just right._
+
+_It's okay for Now!!_
 
 
 
