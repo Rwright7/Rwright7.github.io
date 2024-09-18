@@ -57,4 +57,4 @@ date: 2024-09-17 13:32 -0400
 > #### In regards to programming, well it's mostly books. The beejs guides aren't necessary books in my opinion. They're like less than 200 pages. And the reason for books is that each book is different and tutorial hell is real. So open book, read what i want, apply it over and over, never forget done. 
 
 
-**_There's no PDF for general electric 1990. it's too large to be uploaded and i didnt want to use Git LFS _**
+**_There's no PDF for general electric 1990. it's too large to be uploaded and i didnt want to use Git LFS_**
