@@ -37,11 +37,11 @@ date: 2024-09-17 13:32 -0400
 - []()
 - [WARREN BUFFETT PAST, PRESENT AND FUTURE LETTER](/assets/articles/WEB-past-present-future-2014.pdf)
 - [CHARLIE MUNGER PAST, PRESENT AND FUTURE LETTER](/assets/articles/CTM-past-present-future-2014.pdf)
-- [THE PERILS OF OBEDIENCE](/assets/articles/the-perils-of-obedience.pdf)
+- [THE PERILS OF OBEDIENCE](/assets/articles/The-perils-of-obedience.pdf)
 
 
 - [Beej's Guide to Network Programming](/assets/articles/bgnet_usl_c_2.pdf)
-- [Beej’s Guide to Interprocess Communication](/assets/articles/bgnet_usl_c_1.pdf)
+- [Beej’s Guide to Interprocess Communication](/assets/articles/bgipc_usl_c_1.pdf)
 - [Beej’s Guide to Network Concepts](/assets/articles/bgnet0_usl_c_1.pdf)
 - [Reflections on Trusting Trust by Ken Thompson](/assets/articles/Trusting-Trust-p761-thompson.pdf)
 - [DEEP C SLIDES](/assets/articles/DeepC_slides_oct2011.pdf)
@@ -58,4 +58,4 @@ date: 2024-09-17 13:32 -0400
 > #### In regards to programming, well it's mostly books. The beejs guides aren't necessary books in my opinion. They're like less than 200 pages. And the reason for books is that each book is different and tutorial hell is real. So open book, read what i want, apply it over and over, never forget done. 
 
 
-There's no PDF, it's too large to be uploaded and i didnt want to use Git LFS
+**_There's no PDF for general electric 1990. it's too large to be uploaded and i didnt want to use Git LFS _**
