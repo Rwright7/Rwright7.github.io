@@ -29,11 +29,12 @@ date: 2024-09-17 13:32 -0400
 - [BERKSHIRE HATHAWAY CHAIRMAN'S LETTER 1999](/assets/articles/Chairman's-Letter-1999.pdf)
 
 
-- [GENERAL MOTORS 1932 ANNUAL LETTER](/assets/articles/generalmotors1932.pdf)
+- [GENERAL MOTORS 1932 ANNUAL REPORT](/assets/articles/generalmotors1932.pdf)
 - [GENERAL ELECTRIC 1990 ANNUAL REPORT](/assets/articles/)
-- [GENERAL ELECTRIC 1991 ANNUAL REPORT](/assets/articles/generalmotors1991.pdf)
-- [GENERAL ELECTRIC 1993 ANNUAL REPORT](/assets/articles/generalmotors1993.pdf)
-- [GENERAL ELECTRIC 1994 ANNUAL REPORT](/assets/articles/generalmotors1994.pdf)
+- [GENERAL ELECTRIC 1991 ANNUAL REPORT](/assets/articles/generalelectric1991.pdf)
+- [GENERAL ELECTRIC 1993 ANNUAL REPORT](/assets/articles/generalelectric1993.pdf)
+- [GENERAL ELECTRIC 1994 ANNUAL REPORT](/assets/articles/generalelectric1994.pdf)
+- []()
 - [WARREN BUFFETT PAST, PRESENT AND FUTURE LETTER](/assets/articles/WEB-past-present-future-2014.pdf)
 - [CHARLIE MUNGER PAST, PRESENT AND FUTURE LETTER](/assets/articles/CTM-past-present-future-2014.pdf)
 - [THE PERILS OF OBEDIENCE](/assets/articles/the-perils-of-obedience.pdf)
