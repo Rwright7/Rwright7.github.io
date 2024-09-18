@@ -50,11 +50,11 @@ date: 2024-09-17 13:32 -0400
 
 
 
-> #### Since recently which is at the time of this writing (18t of Sept, 2024). I have mostly been reading Annual Letters from Berkshire and a few other companies, perferrable the older stuff, my logic is that the older annual letters tells me exactly how the business operates exactly from the horses mouth. Most companies will change a few things about how they run the business here and there over a lengthy period, if they're still operating in today's age. Once you have a strong fundamental idea of how the business works, whatever they change wont' affect it so it's not impertinent to know, still may be useful, but you won't die if you don't know. How would you know if it affects the business, well you look age the balance sheet or the course of a given period. 
+> #### _Since recently which is at the time of this writing (18t of Sept, 2024). I have mostly been reading Annual Letters from Berkshire and a few other companies, perferrable the older stuff, my logic is that the older annual letters tells me exactly how the business operates exactly from the horses mouth. Most companies will change a few things about how they run the business here and there over a lengthy period, if they're still operating in today's age. Once you have a strong fundamental idea of how the business works, whatever they change wont' affect it so it's not impertinent to know, still may be useful, but you won't die if you don't know. How would you know if it affects the business, well you look age the balance sheet or the course of a given period._
 
 
 
-> #### In regards to programming, well it's mostly books. The beejs guides aren't necessary books in my opinion. They're like less than 200 pages. And the reason for books is that each book is different and tutorial hell is real. So open book, read what i want, apply it over and over, never forget done. 
+> #### _In regards to programming, well it's mostly books. The beejs guides aren't necessary books in my opinion. They're like less than 200 pages. And the reason for books is that each book is different and tutorial hell is real. So open book, read what i want, apply it over and over, never forget done._
 
 
 **_There's no PDF for general electric 1990. it's too large to be uploaded and i didnt want to use Git LFS_**
