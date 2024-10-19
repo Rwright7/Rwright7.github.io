@@ -4,7 +4,6 @@ title: How To Read Basic Errors In C/C++
 date: 2024-09-02 20:56 -0400
 ---
 
-
 ```c++
 
 #include <iostream>
