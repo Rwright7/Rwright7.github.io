@@ -111,7 +111,10 @@ _**Pattern Recognition Leading to Oversight:**_
 
 **In my Case**: *Expecting the loop to build a concatenated string led me to overlook the fact that code was replacing the string in each iteration instead.*
 
+Solution:
+**Deliberate Analysis - Take time to carefully read and understand each line of code. Alongside not assuming patterns are correct; verify them.**
 
+_**It is impossible for a man to learn what he thinks he already knows." — Epictetus**_
 
 
 
