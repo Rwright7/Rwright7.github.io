@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Common Sense -- About Jamaica markets
+title: Common Sense -- About Jamaican markets
 date: 2024-10-18 22:16 -0400
 ---
 
