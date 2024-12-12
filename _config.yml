@@ -183,6 +183,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
+  - _posts/2024-09-25-unusual-post-ignorance
 
 jekyll-archives:
   enabled: [categories, tags]
