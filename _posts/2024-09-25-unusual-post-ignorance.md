@@ -3,7 +3,7 @@ layout: post
 title: Unusual post -- Ignorance
 date: 2024-09-25 21:45 -0400
 hidden: true
-
+published: false
 ---
 
 # Definition
