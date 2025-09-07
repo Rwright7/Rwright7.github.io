@@ -38,11 +38,6 @@ date: 2024-08-14 11:15 -0400
 
 
 
-
-
-
-
-  nnnnn
    My next question to anyone would be what is an "IndexOutOfBoundsException" error. I will define it simply as trying to access an element at a position in a list, array, or string that doesn’t exist. It happens because you’re asking the program to look for something in a place that’s outside the bounds (limits) of what’s available. When i initial began to learn C programming i had to be cautious of things like **"IndexOutOfBoundsException"** only difference is that it's called **segmentation fault**, shorten version is **seg fault**. 
 
    Now here's the proper comparison:
