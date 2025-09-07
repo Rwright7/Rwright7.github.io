@@ -127,6 +127,55 @@ $$ E = \int \frac{k\;dq}{r^2}$$
 **However we should note that the exact form depends on whether the charge is along a line (linear), a surface (surface), or a volume (volume charge density).** So yeah this methods allows us to calculate the electric field for rods, plates, spheres, and other shapes, and not just isolated point charges!!
 
 
+# 19.9
+The goal of 19.9 was to describe the general relation between the net electric flux through a closed surface and the charge enclosed by the surface. 
+
+### What is an electric flux?
+
+An electric flux is basically a measure of how much electric field passes through a closed surface overall. If more electric field lines leave the bubble than enter, the net flux is positive; if more enter than leave, it’s negative. If the same number enter and leave, the net flux is zero. It does not matter what shape the surface is. but it depends on whether there’s charge inside it creating those field lines.
+
+$$\oint \vec{E} \cdot d\vec{A} = \frac{q_{inside}}{\mathcal E_0}$$
+
+* The numerator is the total charge enclosed by that surface 
+* The denominator is permittivity of free space, which sets the scale. In other words is a constant that tells us how easily electric field lines can spread through empty space.
+
+### Usefulness of Gauss's Law
+
+* Well simply put it lets us calculate electric fields easily for symmetric charge distributions (like spheres, cylinders, and planes). And instead of adding up every little charge, we just consider the total charge inside the surface.
 
 
+# Problem Set Time!
+
+**#5 The magnitude of the electric force between two protons is $$2.30 * 10^{-26}$$\;N. How far apart are they? (a) 0.100 m (b) 0.022 0 m (c) 3.10 m (d) 0.005 70 m (e) 0.480 m**
+
+Answer $$\Rightarrow$$ use coulombs law 
+
+$$F = 2.30 * 10^{-26}\;N,\;\;\;$$
+$$q_1 = q_2 = 1.60 * 10^{-19}\; C,\;\;\;$$
+$$k = 8.99 * 10^9\;N \cdot m^2/C^2,\;\;\;$$
+
+1) To solve this, you first need to understand what’s given and what’s being asked. Coulomb’s law is usually written to find the force when the distance is known
+
+2) In this problem, we already know the force and the charges—the unknown is the distance. With some basic algebra, we can rearrange the formula to solve for "r".
+
+3) The key is recognizing what’s given, what’s missing, and then adapting the equation to isolate the unknown.
+
+$$r = \sqrt{\frac{k\;q_1\;q_2}{F}}$$
+
+Steps to find the answer on your own
+
+1) Multiply $$k*q_1*q_2$$ 
+
+2) Divide by F 
+
+3) Take the square root
+
+Answer is (a) 0.1 m
+
+#10 
+
+
+#11
+
+#4
 
