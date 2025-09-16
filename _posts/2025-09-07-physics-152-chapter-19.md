@@ -145,8 +145,8 @@ $$\oint \vec{E} \cdot d\vec{A} = \frac{q_{inside}}{\mathcal E_0}$$
 
 
 # Problem Set Time!
-
-**#5 The magnitude of the electric force between two protons is $$2.30 * 10^{-26}$$\;N. How far apart are they? (a) 0.100 m (b) 0.022 0 m (c) 3.10 m (d) 0.005 70 m (e) 0.480 m**
+## Question 5
+**The magnitude of the electric force between two protons is $$2.30 * 10^{-26}$$\;N. How far apart are they? (a) 0.100 m (b) 0.022 0 m (c) 3.10 m (d) 0.005 70 m (e) 0.480 m**
 
 Answer $$\Rightarrow$$ use coulombs law 
 
@@ -172,10 +172,121 @@ Steps to find the answer on your own
 
 Answer is (a) 0.1 m
 
-#10 
+## Question
+![Question](/images/physics.jpeg)
 
 
-#11
+Lets first restate the question, one can not answer a question, that which they're unable to interpret. My interpretation is that our goal is to calculate the electric field at a point above the center of a charged rod, first for a finite rod, then for an infinite rod.
 
-#4
+$$\lambda$$ the amount of charge per unit length of the rod. Without λ, we can’t distribute the total charge along the rod for integration.
 
+$$\ell$$ sets the rod’s finite (or infinite) extent.
+
+$$dx,\;dq,\;x$$ let us apply Coulomb’s law piece by piece.
+
+$$y$$, $$\theta_0$$ set the geometry at the observation point 
+
+Symmetry ensures only the vertical component survives.
+
+Our setup is Place the rod along the x-axis from 
+$$
+x
+$$
+
+=
+
+$$-\frac{l}{2}$$ 
+
+to x = $$+\frac{l}{2}$$. 
+
+We notice that point P is on the perpendicular bisector at (0, y). Linear charge density
+
+  $$\lambda$$ 
+
+  and we use 
+
+  $$k_e = \frac{1}{4\pi\mathcal E_0}$$
+
+Now we take an element at position $$x$$ with length $$dx$$ and charge $$dq$$ = $$\lambda\;dx$$. its distance to $$P$$ is  $$r=\sqrt{x^2 + y^2}$$. 
+
+the magnitude of the field from that element is $$dE = \frac{k_e\;dq}{r^2} = $$$$\frac{k_e\;\lambda\;dx}{(x^2 + y^2)}$$
+
+the vertical component (along $$y$$) is 
+ $$dE_y$$ = $$dE \cos \phi$$ = $$dE \frac{y}{r}$$ = $$\frac{k_e\lambda\;y\;dx}{(x^2 + y^2)^{\frac{3}{2}}}$$
+
+by symmetry the horizontal components from $$x$$ and $$x$$ cancel, so the net field at $$P$$ is purely vertical:
+
+$$
+E = \int_{-\frac{\ell}{2}}^{\frac{\ell}{2}}
+    \frac{k_e\,\lambda\,y\,dx}{(x^2 + y^2)^{3/2}}
+$$
+
+
+### Now the fun part is evaluating the integral using trig substitution
+
+Set 
+
+$$
+x = y \tan \theta\;
+$$
+
+then
+
+$$
+dx = y\; \sec^2 \theta \; d\theta
+$$  
+
+and
+
+$$
+x^2 + y^2 = y^2 \sec^2 \theta,\;\;(x^2 + y)^{\frac{3}{2}} = y^3 \sec^3 \theta
+$$
+
+When $$x = \pm \ell/2$$, $$\theta = \pm \theta_0$$ where $$\theta_0 = \arctan\!\left(\tfrac{\ell}{2y}\right)$$.
+
+Substitute:
+
+$$
+E = k_e \lambda y \int_{-\theta_0}^{\theta_0} \frac{y \sec^2\theta \, d\theta}{y^3 \sec^3\theta}
+= \frac{k_e \lambda}{y} \int_{-\theta_0}^{\theta_0} \cos\theta \, d\theta
+= \frac{k_e \lambda}{y} \left[ 2 \sin\theta_0 \right].
+$$
+
+So the result is
+
+$$
+E = \frac{2 k_e \lambda \sin\theta_0}{y}
+$$
+
+with $$\theta_0 = \arctan\!\left(\tfrac{\ell}{2y}\right)$$.
+
+You can also write this in $$\ell, y$$ form by
+$$
+\sin\theta_0 = \frac{\ell/2}{\sqrt{y^2 + (\ell/2)^2}},
+$$
+giving
+
+$$
+E = \frac{k_e \lambda \ell}{y \sqrt{y^2 + (\ell/2)^2}}.
+$$
+
+Direction: for $$\lambda > 0$$ the field is away from the rod, i.e. along $$+y$$ at the point above the rod.
+
+### Now for part (b)
+
+we use this result to show that if the rod is infinitely long $$(\ell\;\rightarrow\;\infty)$$, then
+
+$$\theta_0 \rightarrow \frac{\pi}{2} 
+$$
+
+so 
+
+$$
+\sin \theta_0 \rightarrow 1.
+$$
+
+therefore:
+
+$$
+E = \frac{2k_e\;\lambda}{y}
+$$
